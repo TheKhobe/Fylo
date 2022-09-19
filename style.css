@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#clone{
+ background-image: url('/images/bg-curvy-desktop.svg');
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: 90% -165%;
+}
+body{
+ background-color: hsl(218, 28%, 13%);
+}
+#testimonial{
+ background-image: url('/images/bg-quotes.png');
+ background-repeat: no-repeat;
+ background-position:130px 40px;
+}
+#error-text{
+color: hsl(0, 100%, 63%);
+margin-left: 10%;
+}
+@media screen and (min-width:480px) {
+ #error-text{
+  margin-left: 20%;
+  margin-top: 10px;
+ }
+}
